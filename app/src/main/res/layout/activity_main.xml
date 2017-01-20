@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="sk.svb.servocontroller.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/value_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="channel 1"
+                android:inputType="number"
+                android:text="1500" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/value_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="channel 2"
+                android:inputType="number"
+                android:text="1500" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/value_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="channel 3"
+                android:inputType="number"
+                android:text="1500" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/value_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="channel 4"
+                android:inputType="number"
+                android:text="1500" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/value_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="channel 5"
+                android:inputType="number"
+                android:text="1500" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/value_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="channel 6"
+                android:inputType="number"
+                android:text="1500" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/send_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:text="Send" />
+    </LinearLayout>
+
+</ScrollView>
